@@ -17,8 +17,8 @@ while True:
             print('Total attempts =',total_guesses)
             break
         elif guess<target_number:
-            print('Your guess was low. Try a higher number.')
+            print('Your guess was low. Try a higher number.\n')
         else:
-            print('Your guess was high. Try a lower number.')
+            print('Your guess was high. Try a lower number.\n')
     else:
-        print('Enter a valid input!!!!!')
+        print('Enter a valid input!!!!!\n')
