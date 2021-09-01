@@ -22,4 +22,3 @@ while True:
             print('Your guess was high. Try a lower number.')
     else:
         print('Enter a valid input!!!!!')
-        continue
