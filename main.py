@@ -2,7 +2,7 @@
 from random import randint
 print('You can choose between 3 difficulty levels!!!')
 print('Press e for easy, m for medium and h for hard')
-difficulty=input('Your difficulty level: ')
+difficulty=input('Your difficulty level: ').lower().strip()
 
 difficulty_levels={'e':100, 'm':500, 'h':1000}
 target_number=randint(1,difficulty_levels[difficulty])
